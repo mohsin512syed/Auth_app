@@ -24,9 +24,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
-.footer button{
+
+.footer button {
     outline: none;
     border: none;
     background-color: #9900ff;
@@ -39,14 +40,24 @@
     transition: 100ms;
     cursor: pointer;
 }
-.footer button:hover{
+
+.footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: red;
+    text-align: center;
+}
+
+.footer button:hover {
     background-color: #cc80ff;
 }
-.footer p{
+
+.footer p {
     font-weight: 700;
     color: #000;
 }
-.footer p span a{
+
+.footer p span a {
     font-weight: bold;
     color: #9900ff;
     letter-spacing: 1px;
