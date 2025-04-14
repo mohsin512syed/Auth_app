@@ -21,6 +21,13 @@
     gap: 30px;
 }
 
+.footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -39,6 +46,10 @@
     width: 100%;
     transition: 100ms;
     cursor: pointer;
+}
+
+.footer button:disabled {
+    background-color: gray !important;
 }
 
 .footer .error {
